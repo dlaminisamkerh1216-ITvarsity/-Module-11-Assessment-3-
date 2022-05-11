@@ -9,8 +9,8 @@ html{
 }
 
 .blog-header{
-    margin-top: 7rem;
-    max-width: 700px;
+    margin-top: 8rem;
+    max-width: 800px;
 }
 
 @media (max-width: 768px){
@@ -20,7 +20,7 @@ html{
 }
 
 .container{
-    max-width: 960px;
+    max-width: 450px;
 }
 
 .team{
@@ -28,7 +28,9 @@ html{
     overflow-y: hidden;
     white-space: nowrap;
     margin-bottom: 2rem;
+    
 }
+
 
 .card-deck .card{
     min-width: 220px;
@@ -42,6 +44,17 @@ html{
     min-height: 220px;
 }
 
-.active{
-    border-bottom: 1px solid black;
+
+h2{
+    text-align: center;
+    border: solid 1px;
+}
+
+.btn-group{
+    left: 570px;
+}
+
+body{
+    color: black;
+    background-color: peachpuff;
 }
